@@ -1,7 +1,5 @@
 # Real-Time Driver Drowsiness Detection Using CNN for Road Safety
 
-## TECH 405 — Week 6/7/8 Project
-
 ### Classification task
 Binary eye-state classification:
 - Closed Eyes = 0
@@ -47,8 +45,3 @@ Confusion matrices (rows = actual Closed/Open, columns = predicted Closed/Open):
 The MLP is slightly better on accuracy, Open-Eyes recall, and F1 at the 0.50 threshold. The CNN has the higher ROC-AUC, indicating stronger threshold-independent score separation. Both models have 99.48% recall for Closed Eyes.
 
 This project is an eye-state classifier and should not be described as a clinical or safety-certified drowsiness detector. Real deployment would require temporal context, broader real-world validation, calibrated thresholds, and additional cues such as blink duration, head pose, gaze, and yawning.
-
-### Files
-- `Week8_Driver_Drowsiness_Classification_Presentation.pptx` — final presentation
-- `Week6_7_Driver_Drowsiness_Full_Code.py` — notebook-derived full code
-- `Week8Assignment.ipynb` — original Colab notebook used for the project
